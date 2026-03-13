@@ -6,13 +6,3 @@
         <item name="android:windowBackground">#080810</item>
     </style>
 </resources>
-```
-
-Then also open `app/build.gradle.kts` → click ✏️ edit → find this line:
-```
-implementation("androidx.compose.material3:material3")
-```
-
-And add this line directly below it:
-```
-implementation("androidx.appcompat:appcompat:1.6.1")
